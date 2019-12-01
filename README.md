@@ -1,5 +1,6 @@
-Strangely# python-purple-rain
+# python-purple-rain
 A code challenge to make purple rain using pygame.
+
 *Note, for some reason this is running strangely on MacBook pro screens*
 
 ![Screenshot](rain.png)
