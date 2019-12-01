@@ -2,6 +2,7 @@ import pygame
 from pygame.sprite import Sprite
 import random
 
+
 class Droplet(Sprite):
     """Class for making raindrops"""
 
@@ -38,8 +39,6 @@ class Droplet(Sprite):
 
         # store the raindrops y pos
         self.y = float(self.rect.y)
-
-
 
     def update(self):
         """Move the raindrops to the bottom of the screen"""

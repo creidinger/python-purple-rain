@@ -17,6 +17,7 @@ def check_events():
                 pygame.QUIT
                 sys.exit()
 
+
 def update_screen(r_settings, screen, raindrops):
     """Redraw the entire screen"""
 
@@ -24,6 +25,7 @@ def update_screen(r_settings, screen, raindrops):
     for drop in raindrops.sprites():
         drop.draw_raindrop()
     pygame.display.flip()
+
 
 def create_raindrops(r_settings, screen, raindrops):
     """Make a raindrop if the nubmer of raindrops hasn't been reached"""

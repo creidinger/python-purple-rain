@@ -6,6 +6,7 @@ from settings import Settings
 import game_functions as gf
 from droplet import Droplet
 
+
 def rain():
     # Init the game and create a screen object
     pygame.init()
